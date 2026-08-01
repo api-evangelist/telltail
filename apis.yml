@@ -1,7 +1,23 @@
 aid: telltail
-name: Telltail
-description: Telltail is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telltail.png
+name: TellTail
+description: TellTail was a community-first platform providing community, education, and business support
+  to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed
+  round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a
+  General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased
+  operations ("TellTail is closing its doors"); it operated a consumer marketplace and community product
+  with no public developer API, documentation, SDK, or event surface.
 url: https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,31 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: closed
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Pet
+- Dog Breeders
+- Marketplace
+- Community
+- Consumer
+- Pet Care
 apis: []
+common:
+- type: Website
+  url: https://telltail.com
+- type: Portfolio
+  url: https://www.generalcatalyst.com/portfolio/telltail
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
